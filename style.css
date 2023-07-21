@@ -1,0 +1,308 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: #007CBD;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar > div {
+    padding: 15px 100px 15px 100px;
+}
+
+.navbar > .collapse {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 0;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+#regis {
+    height: 2.5rem;
+    background-color: white;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -2px;
+}
+
+#regis > a{
+    color: #007CBD;
+    text-decoration: none;
+    top: 50%;
+    bottom: 50%;
+}
+
+#list1 {
+    color: white;
+    font-weight: 500;
+}
+
+#hero, #mechanism {
+    align-items: center;
+}
+
+#hero > img{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#mechanism > img{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#hero-text, #regis-text{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color: white;
+    width: 70%;
+    margin: 0px 15%;
+    text-align: center;
+    align-items: center;
+    font-family: montserrat;
+}
+
+#hero-text > h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#hero-text > h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#regis-text > h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#hero-text > h5{
+    font-size: 14px;
+    margin: 0px 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#hero-text > button{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#formcard{
+    background-color: white;
+    box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
+    margin: -10% auto 50px auto;
+    width: 50%;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+#form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#syarat{
+    margin: auto;
+}
+
+#send {
+    text-align: center;
+}
+
+#sendButton{
+    margin: 20px auto 30px auto;
+    min-width: 50px;
+    padding: 2% 20%;
+    max-width: 300px;
+}
+
+.navbar > div > img {
+    height: 2rem;
+}
+
+footer{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-items > img {
+    margin-top: 20px;
+    height: 3rem;
+}
+
+#footer-links{
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 25%;
+}
+
+#footer-text{
+    flex: 1 1 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 65%;
+    word-wrap: break-word;
+}
+
+#socials{
+    height: 21px;
+    gap: 30px;
+    display: inline-flex;
+}
+
+#footer-items > h5{
+    margin-top: 30px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 14px */
+}
+
+@media screen and (max-width: 1000px) {    
+    #list1, #regis {
+        font-size: small;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #regis-text{
+        top:40%;
+        font-size: 20px;
+    }
+
+    #formcard{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar > div {
+        padding: 5px 100px 5px 100px;
+    }
+
+    #hero-text{
+        position: absolute;
+        top: 20%;
+        width: 90%;
+        margin: 0px 5%;
+    }
+
+    #regis-text > h1{
+        font-size: 40px;
+    }
+    
+    #hero-text > h4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    #hero-text > h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    #hero-text > h5{
+        font-size: 12px;
+        margin: 0px 50px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    
+    #hero-text > button{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #regis-text{
+        position: absolute;
+        top: 20%;
+        width: 90%;
+        margin: 0px 5%;
+    }
+
+    #formcard{
+        margin: 50px auto 50px auto;
+    }
+
+    #footer-items {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    #footer-links{
+        margin-top: 30px;
+        display: inline;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer-text{
+        margin: 30px auto;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    #socials{
+        margin: 0px auto;
+        align-items: center;
+        height: 21px;
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar > div {
+        padding: 0px 40px;
+    }
+
+    .navbar-toggler {
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    .container-fluid{
+        text-align: center;
+    }
+
+    #logo {
+        margin: 10px auto;
+        align-self: center;
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+    
+    #list1, #regis {
+        align-content: center;
+        font-size: small;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+}
