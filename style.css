@@ -57,13 +57,12 @@ body{
 }
 
 #hero {
-    align-items: center;
-}
-
-#hero > img{
-    width: 100%;
-    text-align: center;
-    position: relative;
+    background-image: url("Assets/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 1000px;
+    margin-top: -5%;
 }
 
 #mechanism > img{
@@ -72,13 +71,14 @@ body{
     position: relative;
 }
 
-#hero-text, #regis-text{
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    color: white;
+#hero-text{
     width: 70%;
-    margin: 0px 15%;
+    margin: 0px auto;
+    padding-top: 25%;
+}
+
+#hero-text, #regis-text{
+    color: white;
     text-align: center;
     align-items: center;
     font-family: montserrat;
@@ -133,6 +133,7 @@ body{
 #hero-text > button{
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 #formcard{
@@ -241,13 +242,6 @@ footer{
 @media screen and (max-width: 600px) {
     .navbar > div {
         padding: 5px 100px 5px 100px;
-    }
-
-    #hero-text{
-        position: absolute;
-        top: 20%;
-        width: 90%;
-        margin: 0px 5%;
     }
 
     #regis-text > h1{
