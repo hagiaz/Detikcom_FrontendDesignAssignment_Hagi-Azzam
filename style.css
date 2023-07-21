@@ -73,30 +73,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 1000px;
+    max-height: 1024px;
     margin-top: -5%;
-}
-
-#hero2{
-    align-items: center;
-}
-
-#hero2 > img{
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
-#mechanism > img{
-    width: 100%;
-    text-align: center;
-    position: relative;
 }
 
 #hero-text{
     width: 70%;
     margin: 0px auto;
-    padding-top: 25%;
+    padding: 27% 0;
 }
 
 #hero-text, #regis-text{
@@ -116,6 +100,40 @@ body{
     font-weight: 800;
 }
 
+#hero2{
+    align-items: center;
+}
+
+#hero2 > img{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#about{
+    height: fit-content;
+    text-align: center;
+}
+
+#about-container{
+    width: 70%;
+    margin: 0px auto;
+    padding: 80px 0px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+#about-image > img{
+    width: 80%;
+}
+
+#about-text{
+    font-family: montserrat;
+    text-align: left;
+}
+
 #mechanism{
     background-image: url("Assets/bg2.png");
     background-size: cover;
@@ -124,12 +142,25 @@ body{
     margin: 0px auto;
 }
 
+#mechanism > img{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
 #mechanism-card{
     width: 70%;
     margin: 0px auto;
     padding: 30px 0px;
     text-align: left;
     color: white;
+}
+
+#mechanism-card > h2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 80px;
 }
 
 .card{
@@ -301,6 +332,15 @@ footer{
 
     #formcard{
         margin: 50px auto 50px auto;
+    }
+
+    #mechanism-card > h2 {
+        font-size: 150%;
+    }
+
+    #about-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 
     #footer-items {
