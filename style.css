@@ -8,6 +8,8 @@ body{
     font-family: montserrat;
 }
 
+/* Navbar Styling */
+
 .navbar {
     background-color: #007CBD;
     color: #FFF;
@@ -33,34 +35,7 @@ body{
     margin-right: 30px;
 }
 
-#regis {
-    height: 2.5rem;
-    background-color: white;
-    display: flex;
-    padding: 10px 30px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: -2px;
-}
-
-#regis-text{
-    color: white;
-    font-family: montserrat;
-    padding: 10% 0;
-}
-
-#regis > a{
-    color: #007CBD;
-    text-decoration: none;
-    top: 50%;
-    bottom: 50%;
-}
-
-#list1 {
-    color: white;
-    font-weight: 500;
-}
+/* Hero Styling */
 
 #hero {
     background-image: url("Assets/bg1.png");
@@ -100,6 +75,8 @@ body{
     align-items: center;
 }
 
+/* About Styling */
+
 #about{
     height: fit-content;
     text-align: center;
@@ -123,6 +100,8 @@ body{
     font-family: montserrat;
     text-align: left;
 }
+
+/* Mechanism Styling */
 
 #mechanism{
     background-image: url("Assets/bg2.png");
@@ -161,59 +140,7 @@ body{
     font-weight: 600;
 }
 
-#regis-text > h1{
-    font-size: 48px;
-    font-weight: 800;
-}
-
-#hero-text > h5{
-    font-size: 14px;
-    margin: 0px 50px;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
-
-#hero-text > button{
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 50px;
-}
-
-#formcard{
-    background-color: white;
-    box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
-    -webkit-box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
-    -moz-box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
-    margin: -7% auto 50px auto;
-    width: 50%;
-    border-radius: 16px;
-    z-index: 1;
-}
-
-#form {
-    padding-top: 20px;
-    margin: 0 auto;
-    width: 90%;
-}
-
-#syarat{
-    margin: auto;
-}
-
-#send {
-    text-align: center;
-}
-
-#sendButton{
-    margin: 20px auto 30px auto;
-    min-width: 50px;
-    padding: 2% 20%;
-    max-width: 300px;
-}
-
-.navbar > div > img {
-    height: 2rem;
-}
+/* Partner Styling */
 
 #partners{
     text-align: center;
@@ -272,6 +199,8 @@ body{
     text-decoration: none;
 }
 
+/* Update Styling */
+
 #update{
     font-family: montserrat;
     text-align: center;
@@ -313,6 +242,93 @@ body{
     color: #7A7B7E;
     font-size: 10px;
 }
+
+/* Register Page Styling */
+
+#regis {
+    height: 2.5rem;
+    background-color: white;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -2px;
+}
+
+#regis-text{
+    color: white;
+    font-family: montserrat;
+    padding: 10% 0;
+}
+
+#regis > a{
+    color: #007CBD;
+    text-decoration: none;
+    top: 50%;
+    bottom: 50%;
+}
+
+#list1 {
+    color: white;
+    font-weight: 500;
+}
+
+#regis-text > h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#hero-text > h5{
+    font-size: 14px;
+    margin: 0px 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#hero-text > button{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#formcard{
+    background-color: white;
+    box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 100px -46px rgba(0,0,0,0.59);
+    margin: -7% auto 50px auto;
+    width: 50%;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+#form {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#syarat{
+    margin: auto;
+}
+
+#send {
+    text-align: center;
+}
+
+#sendButton{
+    margin: 20px auto 30px auto;
+    min-width: 50px;
+    padding: 2% 20%;
+    max-width: 300px;
+}
+
+.navbar > div > img {
+    height: 2rem;
+}
+
+/* Footer Styling */
 
 footer{
     display: flex;
