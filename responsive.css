@@ -1,0 +1,130 @@
+@media screen and (max-width: 1000px) {    
+    #list1, #regis {
+        font-size: small;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #regis{
+        margin-top: 30px;
+    }
+
+    .card-title, .card-subtitle{
+        font-size: 80%;
+    }
+
+    #mechanism-list {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar > div {
+        padding: 5px 100px 5px 100px;
+    }
+   
+    #hero-text > h4{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    #hero-text > h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    #hero-text > h5{
+        font-size: 12px;
+        margin: 0px 50px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    
+    #hero-text > button{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #formcard{
+        margin: 50px auto 50px auto;
+    }
+
+    #mechanism-card > h2 {
+        font-size: 150%;
+    }
+
+    #about-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    #partner-text > h2{
+        font-size: 10px;
+    }
+
+    #daftar {
+        padding: 10px;
+    }
+    
+    #daftar > a {
+        font-size: 12px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+    }
+
+    #footer-items {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    #footer-links{
+        margin-top: 30px;
+        display: inline;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer-text{
+        margin: 30px auto;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    #socials{
+        margin: 0px auto;
+        align-items: center;
+        height: 21px;
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar > div {
+        padding: 0px 40px;
+    }
+
+    .navbar-toggler {
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    .container-fluid{
+        text-align: center;
+    }
+
+    #logo {
+        margin: 10px auto;
+        align-self: center;
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+    
+    #list1, #regis {
+        align-content: center;
+        font-size: small;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+}
