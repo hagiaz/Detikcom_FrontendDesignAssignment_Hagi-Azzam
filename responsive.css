@@ -15,6 +15,10 @@
     #mechanism-list {
         font-size: 70%;
     }
+
+    #update-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -70,6 +74,10 @@
         font-weight: 500;
         color: white;
         text-decoration: none;
+    }
+
+    #update-container{
+        grid-template-columns: 1fr;
     }
 
     #footer-items {
