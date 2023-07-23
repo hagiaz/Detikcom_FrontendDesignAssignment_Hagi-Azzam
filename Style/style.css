@@ -38,7 +38,7 @@ body{
 /* Hero Styling */
 
 #hero {
-    background-image: url("Assets/bg1.png");
+    background-image: url("../Assets/bg1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,7 +70,7 @@ body{
 }
 
 #hero2{
-    background-image: url("Assets/bg2.png");
+    background-image: url("../Assets/bg2.png");
     background-size: cover;
     align-items: center;
 }
@@ -104,7 +104,7 @@ body{
 /* Mechanism Styling */
 
 #mechanism{
-    background-image: url("Assets/bg2.png");
+    background-image: url("../Assets/bg2.png");
     background-size: cover;
     font-family: montserrat;
     text-align: center;
